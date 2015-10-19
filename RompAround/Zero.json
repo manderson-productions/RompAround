@@ -1,0 +1,38 @@
+{
+	"enemies": [
+		{
+			"type": "Goblin",
+			"health": 3,
+			"attack": 2,
+			"movement": 3
+		},
+		{
+			"type": "Goblin",
+			"health": 3,
+			"attack": 2,
+			"movement": 3
+		}
+	],
+	"loot": [
+		{
+			"type": "Card",
+			"info": "A fucking powerup motherfucker! Go beat some ass!",
+			"attack": 4,
+			"defense": 3,
+			"health": -1
+		},
+		{
+			"type": "Gold",
+			"amount_min": 100,
+			"amount_max": 500
+		}
+	],
+	"tiles": {
+		"destructable": {
+			"count": 10
+		},
+		"empty": {
+			"count": 10
+		}
+	}
+}

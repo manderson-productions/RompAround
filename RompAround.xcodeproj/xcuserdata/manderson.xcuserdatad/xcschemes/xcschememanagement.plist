@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>RompAroundiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>22DAE8471BC95D0F004A6545</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22DAE86D1BC9833C004A6545</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22DAE8841BC9833C004A6545</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22DAE88F1BC9833D004A6545</key>
 		<dict>
 			<key>primary</key>
 			<true/>

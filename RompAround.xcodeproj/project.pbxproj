@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2200C0151BD08A8700B737B3 /* LootSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200C0141BD08A8700B737B3 /* LootSprite.swift */; };
+		220314D71BD3F7BD00F840E0 /* Loot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220314D61BD3F7BD00F840E0 /* Loot.swift */; };
+		220861501BCC4DDB00F04E67 /* empty_map_32.json in Resources */ = {isa = PBXBuildFile; fileRef = 2208614F1BCC4DDB00F04E67 /* empty_map_32.json */; };
+		220861521BCC564D00F04E67 /* DiceHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220861511BCC564D00F04E67 /* DiceHUD.swift */; };
 		22DAE82A1BC95D0E004A6545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8291BC95D0E004A6545 /* AppDelegate.swift */; };
-		22DAE82C1BC95D0E004A6545 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE82B1BC95D0E004A6545 /* GameScene.sks */; };
-		22DAE82E1BC95D0E004A6545 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE82D1BC95D0E004A6545 /* GameScene.swift */; };
 		22DAE8301BC95D0E004A6545 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE82F1BC95D0E004A6545 /* GameViewController.swift */; };
 		22DAE8321BC95D0E004A6545 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE8311BC95D0E004A6545 /* Game.xcassets */; };
 		22DAE8351BC95D0E004A6545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE8331BC95D0E004A6545 /* Main.storyboard */; };
 		22DAE8371BC95D0F004A6545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE8361BC95D0F004A6545 /* Assets.xcassets */; };
 		22DAE8421BC95D0F004A6545 /* RompAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8411BC95D0F004A6545 /* RompAroundTests.swift */; };
 		22DAE84D1BC95D0F004A6545 /* RompAroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE84C1BC95D0F004A6545 /* RompAroundUITests.swift */; };
+		22DAE85B1BC95F45004A6545 /* MapSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE85A1BC95F45004A6545 /* MapSquare.swift */; };
+		22DAE85D1BC960B1004A6545 /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE85C1BC960B1004A6545 /* LevelData.swift */; };
+		22DAE85F1BC96CDE004A6545 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE85E1BC96CDE004A6545 /* LevelScene.swift */; };
+		22DAE8621BC96E69004A6545 /* empty_map_64.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE8611BC96E69004A6545 /* empty_map_64.json */; };
+		22DAE8641BC972EE004A6545 /* Zero.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DAE8631BC972EE004A6545 /* Zero.json */; };
+		22DAE8691BC978E1004A6545 /* EnemySprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8681BC978E1004A6545 /* EnemySprite.swift */; };
+		22DAE8CC1BCAC1A7004A6545 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8CB1BCAC1A7004A6545 /* Protocols.swift */; };
+		22DAE8CF1BCAC219004A6545 /* PlayerSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8CE1BCAC219004A6545 /* PlayerSprite.swift */; };
+		22DAE8D11BCAC7D4004A6545 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8D01BCAC7D4004A6545 /* Extensions.swift */; };
+		22DAE8D31BCAEBEF004A6545 /* CardSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8D21BCAEBEF004A6545 /* CardSprite.swift */; };
+		22DAE8D81BCAFECD004A6545 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAE8D71BCAFECD004A6545 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2200C0141BD08A8700B737B3 /* LootSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootSprite.swift; sourceTree = "<group>"; };
+		220314D61BD3F7BD00F840E0 /* Loot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loot.swift; sourceTree = "<group>"; };
+		2208614F1BCC4DDB00F04E67 /* empty_map_32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_map_32.json; sourceTree = "<group>"; };
+		220861511BCC564D00F04E67 /* DiceHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceHUD.swift; sourceTree = "<group>"; };
 		22DAE8261BC95D0E004A6545 /* RompAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RompAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DAE8291BC95D0E004A6545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22DAE82B1BC95D0E004A6545 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		22DAE82D1BC95D0E004A6545 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		22DAE82F1BC95D0E004A6545 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		22DAE8311BC95D0E004A6545 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 		22DAE8341BC95D0E004A6545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,17 @@
 		22DAE8481BC95D0F004A6545 /* RompAroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RompAroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DAE84C1BC95D0F004A6545 /* RompAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RompAroundUITests.swift; sourceTree = "<group>"; };
 		22DAE84E1BC95D0F004A6545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DAE85A1BC95F45004A6545 /* MapSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSquare.swift; sourceTree = "<group>"; };
+		22DAE85C1BC960B1004A6545 /* LevelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
+		22DAE85E1BC96CDE004A6545 /* LevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		22DAE8611BC96E69004A6545 /* empty_map_64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_map_64.json; sourceTree = "<group>"; };
+		22DAE8631BC972EE004A6545 /* Zero.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Zero.json; sourceTree = "<group>"; };
+		22DAE8681BC978E1004A6545 /* EnemySprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemySprite.swift; sourceTree = "<group>"; };
+		22DAE8CB1BCAC1A7004A6545 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		22DAE8CE1BCAC219004A6545 /* PlayerSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSprite.swift; sourceTree = "<group>"; };
+		22DAE8D01BCAC7D4004A6545 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		22DAE8D21BCAEBEF004A6545 /* CardSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSprite.swift; sourceTree = "<group>"; };
+		22DAE8D71BCAFECD004A6545 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220314D51BD3F7AE00F840E0 /* Loot */ = {
+			isa = PBXGroup;
+			children = (
+				220314D61BD3F7BD00F840E0 /* Loot.swift */,
+			);
+			name = Loot;
+			sourceTree = "<group>";
+		};
 		22DAE81D1BC95D0E004A6545 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +135,21 @@
 		22DAE8281BC95D0E004A6545 /* RompAround */ = {
 			isa = PBXGroup;
 			children = (
+				220314D51BD3F7AE00F840E0 /* Loot */,
+				22DAE8D61BCAFEBD004A6545 /* Entities */,
+				22DAE8CD1BCAC205004A6545 /* Sprites */,
+				22DAE8CA1BCAC193004A6545 /* Protocols */,
+				22DAE8651BC97770004A6545 /* Extensions */,
+				22DAE8601BC96E56004A6545 /* Levels */,
 				22DAE8291BC95D0E004A6545 /* AppDelegate.swift */,
-				22DAE82B1BC95D0E004A6545 /* GameScene.sks */,
-				22DAE82D1BC95D0E004A6545 /* GameScene.swift */,
 				22DAE82F1BC95D0E004A6545 /* GameViewController.swift */,
 				22DAE8311BC95D0E004A6545 /* Game.xcassets */,
 				22DAE8331BC95D0E004A6545 /* Main.storyboard */,
 				22DAE8361BC95D0F004A6545 /* Assets.xcassets */,
 				22DAE8381BC95D0F004A6545 /* Info.plist */,
+				22DAE85A1BC95F45004A6545 /* MapSquare.swift */,
+				22DAE85C1BC960B1004A6545 /* LevelData.swift */,
+				22DAE85E1BC96CDE004A6545 /* LevelScene.swift */,
 			);
 			path = RompAround;
 			sourceTree = "<group>";
@@ -129,6 +170,52 @@
 				22DAE84E1BC95D0F004A6545 /* Info.plist */,
 			);
 			path = RompAroundUITests;
+			sourceTree = "<group>";
+		};
+		22DAE8601BC96E56004A6545 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				2208614F1BCC4DDB00F04E67 /* empty_map_32.json */,
+				22DAE8611BC96E69004A6545 /* empty_map_64.json */,
+				22DAE8631BC972EE004A6545 /* Zero.json */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		22DAE8651BC97770004A6545 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22DAE8D01BCAC7D4004A6545 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		22DAE8CA1BCAC193004A6545 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				22DAE8CB1BCAC1A7004A6545 /* Protocols.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		22DAE8CD1BCAC205004A6545 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				22DAE8CE1BCAC219004A6545 /* PlayerSprite.swift */,
+				22DAE8681BC978E1004A6545 /* EnemySprite.swift */,
+				22DAE8D21BCAEBEF004A6545 /* CardSprite.swift */,
+				2200C0141BD08A8700B737B3 /* LootSprite.swift */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		22DAE8D61BCAFEBD004A6545 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				22DAE8D71BCAFECD004A6545 /* Player.swift */,
+				220861511BCC564D00F04E67 /* DiceHUD.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DAE8351BC95D0E004A6545 /* Main.storyboard in Resources */,
-				22DAE82C1BC95D0E004A6545 /* GameScene.sks in Resources */,
 				22DAE8371BC95D0F004A6545 /* Assets.xcassets in Resources */,
 				22DAE8321BC95D0E004A6545 /* Game.xcassets in Resources */,
+				22DAE8621BC96E69004A6545 /* empty_map_64.json in Resources */,
+				22DAE8641BC972EE004A6545 /* Zero.json in Resources */,
+				220861501BCC4DDB00F04E67 /* empty_map_32.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +351,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DAE82E1BC95D0E004A6545 /* GameScene.swift in Sources */,
+				22DAE8CF1BCAC219004A6545 /* PlayerSprite.swift in Sources */,
+				22DAE85B1BC95F45004A6545 /* MapSquare.swift in Sources */,
+				220861521BCC564D00F04E67 /* DiceHUD.swift in Sources */,
+				22DAE85D1BC960B1004A6545 /* LevelData.swift in Sources */,
+				22DAE8D81BCAFECD004A6545 /* Player.swift in Sources */,
+				22DAE8691BC978E1004A6545 /* EnemySprite.swift in Sources */,
+				22DAE8D31BCAEBEF004A6545 /* CardSprite.swift in Sources */,
+				2200C0151BD08A8700B737B3 /* LootSprite.swift in Sources */,
+				22DAE8D11BCAC7D4004A6545 /* Extensions.swift in Sources */,
+				22DAE85F1BC96CDE004A6545 /* LevelScene.swift in Sources */,
 				22DAE8301BC95D0E004A6545 /* GameViewController.swift in Sources */,
+				220314D71BD3F7BD00F840E0 /* Loot.swift in Sources */,
 				22DAE82A1BC95D0E004A6545 /* AppDelegate.swift in Sources */,
+				22DAE8CC1BCAC1A7004A6545 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +585,7 @@
 				22DAE8531BC95D0F004A6545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DAE8541BC95D0F004A6545 /* Build configuration list for PBXNativeTarget "RompAroundTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +594,7 @@
 				22DAE8561BC95D0F004A6545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DAE8571BC95D0F004A6545 /* Build configuration list for PBXNativeTarget "RompAroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +603,7 @@
 				22DAE8591BC95D0F004A6545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
